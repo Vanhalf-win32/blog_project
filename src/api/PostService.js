@@ -20,5 +20,16 @@ export default class PostService {
         const response = await axios.get(`https://jsonplaceholder.typicode.com/posts/${id}/comments`);
         return response;
     }
+
+
+    static async getUsers(id) {
+        const response = await axios.get(`https://jsonplaceholder.typicode.com/users?id=${id}`);
+        return response;
+        
+    }
+    static async getGender(users) {
+        const response = await axios.get(`https://api.genderize.io/?name=${users}`);
+        return response;
+    }
 }
 

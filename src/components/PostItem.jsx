@@ -8,10 +8,11 @@ export default function PostItem(props) {
     return (
       <div className="post">
         <div className="post__content">
-            <strong>{props.post.id}.</strong>
+            <strong>{props.post.id}</strong>
             <p>{props.post.title}.</p> 
             <div>
               <strong>{props.post.body}!</strong>
+              <h3>{props.post.userId}</h3>
               </div>
           <div className="post__btn">
                 <MyButton 
