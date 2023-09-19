@@ -50,6 +50,7 @@ export default function PostIdPage() {
                             <h2>{post.title}.</h2><br />
                             {post.body}
                             <h3>
+                                User ID: {post.userId}<br/>
                                 User: {users}<br/>
                                 Gender: {gender}
                             </h3>
