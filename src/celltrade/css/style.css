@@ -1,0 +1,21 @@
+.navigation {
+    height: 90px;
+}
+.navigation-info {
+    font-size: 80%;
+    width: 150px;
+}
+.main {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px; 
+}
+.main-info {
+    background-color: rgb(222, 221, 221);
+}
+.main-info-text {
+    margin: 10px 10px 10px 10px;
+    width: 300px;
+
+}
